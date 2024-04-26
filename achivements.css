@@ -1,0 +1,38 @@
+
+body{
+    background-color: #D2BAD9;   
+}
+.navbar{
+    justify-content: space-around;
+    display: flex;
+}
+.mentoruplogo{
+    width: 100px;
+    height: 100px;
+}
+
+.checkbox{
+    background-color: #6E038C;
+    height:60px; 
+    width:60px;
+}
+.input{
+    border: solid 1px;
+    padding: 30px;
+    width: 300px;
+    border-radius: 40px; 
+ }
+ .heading{
+    text-align: center;
+    color: #6E038C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.todolist{
+    margin-left: 35%;
+}
+ .addtask{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    color: #6E038C;
+ }

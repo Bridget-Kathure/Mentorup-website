@@ -1,0 +1,48 @@
+
+.input{
+    border: solid 1px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    padding: 30px;
+    width: 40%;
+    border-radius: 40px;
+    background-color: white;
+    color: #6E038C;
+    font-size: 10px;
+    border-color: white;
+    cursor: pointer;
+ }
+ .sentence{
+    color:#6E038C;
+    margin-left: 25%;
+ }
+ body{
+   margin-left: 20%;
+   border-color: aliceblue;
+   border-radius: 50px;
+   background-color: #D2BAD9;
+ }
+.mentoruplogo{
+    width: 100px;
+    height: 100px;
+    margin-left: 20%;
+}
+#form{
+    margin-left: 20%;
+    color: white;
+    font-size: 20px;
+
+ }
+ .loginbutton{
+    padding: 20px;
+    width: 35%;
+    border-radius: 40px;
+    background-color: #6E038C;
+    border: 1px;
+    margin-left: 20%;
+    color: #F2F2F2;
+    font-size: 40px;
+    border-color: #6E038C;
+    cursor: pointer;
+ }

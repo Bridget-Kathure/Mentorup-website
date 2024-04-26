@@ -1,0 +1,126 @@
+.mentoruplandingpage {
+  display: flex;
+  border: solid 4px color(#d2bad9 red green blue);
+  border-radius: 40px;
+  padding: 200px;
+}
+.webname {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #6e038c;
+  text-align: center;
+  margin-left: 0%;
+}
+.mentoruplogo {
+  width: 100px;
+  height: 100px;
+}
+
+body {
+  border-color: aliceblue;
+  border-radius: 50px;
+  padding: 20px 40px;
+  padding: 20px;
+  background-color: #d2bad9;
+}
+.getstartedbutton {
+  padding: 20px;
+  width: 40%;
+  border-radius: 30px;
+  margin-left: 35%;
+  background-color: #6e038c;
+  border: 1px;
+  color: #f2f2f2;
+  font-size: 40px;
+  border-color: #6e038c;
+  cursor: pointer;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+.getstartedbutton:hover {
+  opacity: 25px;
+}
+@media sceen and (min-width:280px) and (max-width:375px){
+    /* .mentoruplandingpage {
+        
+        border: solid 4px color(#d2bad9 red green blue);
+        border-radius: 40px; */
+        /* padding: 10px;
+        margin-right: 0px;
+      }
+      .getstartedbutton {
+        /* padding: 20px; */
+
+        /* width: 70%;
+        border-radius: 40px;
+        /* margin-left: 20%; */
+        /* background-color: #6e038c;
+        border: 1px;
+        color: #f2f2f2;
+        font-size: medium;
+        border-color: #6e038c;
+        cursor: pointer;
+      } */ 
+      .mentoruplandingpage {
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+      .webname {
+        font-size: xx-large;
+        margin: auto;
+        
+      }
+      .mentoruplogo {
+        width: 40px;
+        height: 40px;
+      }
+      .getstartedbutton {
+        padding: 40px;
+        width: 60%;
+        border-radius: 50px;
+        margin-left: 5px;
+        border: 1px;
+        color: #f2f2f2;
+        font-size: small;
+        
+      }
+
+
+    }
+
+@media sceen and (min-width:375px) and (max-width:667px){
+  .mentoruplandingpage {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .webname {
+    font-size: xx-large;
+    margin: auto;
+    
+  }
+  .mentoruplogo {
+    width: 40px;
+    height: 40px;
+  }
+  .getstartedbutton {
+    padding: 40px;
+    width: 60%;
+    border-radius: 50px;
+    margin-left: 5px;
+    border: 1px;
+    color: #f2f2f2;
+    font-size: small;
+    
+  }
+}
+
+@media sceen and (min-width:375px) and (max-width:3435x){
+ .getstartedbutton{
+  width: 70%;
+ }
+ .mentoruplandingpage{
+
+ }
+}
