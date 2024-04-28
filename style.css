@@ -42,47 +42,24 @@ a:link {
 .getstartedbutton:hover {
   opacity: 25px;
 }
-@media sceen and (min-width:280px) and (max-width:375px){
-    /* .mentoruplandingpage {
-        
-        border: solid 4px color(#d2bad9 red green blue);
-        border-radius: 40px; */
-        /* padding: 10px;
-        margin-right: 0px;
-      }
-      .getstartedbutton {
-        /* padding: 20px; */
+@media screen and (min-width:280px) and (max-width:375px){
 
-        /* width: 70%;
-        border-radius: 40px;
-        /* margin-left: 20%; */
-        /* background-color: #6e038c;
-        border: 1px;
-        color: #f2f2f2;
-        font-size: medium;
-        border-color: #6e038c;
-        cursor: pointer;
-      } */ 
       .mentoruplandingpage {
         flex-wrap: wrap;
         padding: 20px;
       }
       .webname {
-        font-size: xx-large;
+        font-size: 30px;
         margin: auto;
         
       }
       .mentoruplogo {
-        width: 40px;
+        width: 50px;
         height: 40px;
       }
       .getstartedbutton {
-        padding: 40px;
+        padding: 20px;
         width: 60%;
-        border-radius: 50px;
-        margin-left: 5px;
-        border: 1px;
-        color: #f2f2f2;
         font-size: small;
         
       }
@@ -90,7 +67,7 @@ a:link {
 
     }
 
-@media sceen and (min-width:375px) and (max-width:667px){
+@media screen and (min-width:375px) and (max-width:667px){
   .mentoruplandingpage {
     flex-wrap: wrap;
     padding: 20px;
@@ -101,26 +78,43 @@ a:link {
     
   }
   .mentoruplogo {
-    width: 40px;
+    width: 50px;
     height: 40px;
   }
   .getstartedbutton {
-    padding: 40px;
+    padding: 20px;
     width: 60%;
     border-radius: 50px;
     margin-left: 5px;
     border: 1px;
     color: #f2f2f2;
-    font-size: small;
+    font-size: 20px;
     
   }
 }
 
-@media sceen and (min-width:375px) and (max-width:3435x){
- .getstartedbutton{
-  width: 70%;
- }
- .mentoruplandingpage{
-
- }
+@media screen and (min-width:375px) and (max-width:3435x){
+  .mentoruplandingpage {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .webname {
+    font-size: xx-large;
+    margin: auto;
+    
+  }
+  .mentoruplogo {
+    width: 50px;
+    height: 50px;
+  }
+  .getstartedbutton {
+    padding: 20px;
+    width: 60%;
+    border-radius: 50px;
+    margin-left: 5px;
+    border: 1px;
+    color: #f2f2f2;
+    font-size: 20px;
+    
+  }
 }

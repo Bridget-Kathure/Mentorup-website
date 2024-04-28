@@ -1,0 +1,36 @@
+
+.navbar{
+    justify-content: space-around;
+    display: flex;
+}
+.mentoruplogo{
+    width: 150px;
+    height: 100px;
+}
+.heading{
+    text-align: center;
+    color: #6E038C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.goals{
+    display: flex;
+    justify-content: space-around; 
+}
+.navbar a{
+    text-decoration: none;
+}
+
+.bornacrimesummary{
+}
+.bornacrimecontent{
+    margin-left: 10%;
+    border: solid 2px color(#D2BAD9 red green blue);
+   background-color: #D2BAD9;
+   border-radius: 80px;
+   padding: 100px;
+   height: 1000px;
+   width: 70%;
+   color: #6E038C;  
+   background-color: #D2BAD9;
+   align-items: center; 
+}

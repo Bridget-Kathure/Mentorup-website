@@ -1,10 +1,7 @@
 
-body{
-    background-color: #D2BAD9;   
-}
 .mentoruplogo{
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 100px;
     margin-left: 20%;
 }
 .input{
@@ -12,7 +9,7 @@ body{
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 5px;
-    padding: 30px;
+    padding: 15px;
     width: 40%;
     border-radius: 40px;
     background-color: white;
@@ -25,26 +22,151 @@ body{
     width: 100%;
     padding: 30px;
     margin-left: 20%;
-    color: black;
+    color: #6E038C;
  }
  .label{
     margin-left:2% ;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
+ .signupcontent{
+    align-items: center;
+    padding: 80px;
+    border: solid 2px color(#D2BAD9 red green blue);
+    background-color: #D2BAD9;
+    border-radius: 80px;
+    height: 700px;
+    width: 50%;
+    margin-left: 20%;
+ }
  .registerbutton{
-    padding: 20px;
-    width: 43%;
-    margin-left: 22%;
+    padding: 10px;
+    width: 20%;
     border-radius: 40px;
     background-color: #6E038C;
     border: 1px;
+    margin-left: 30%;
     color: #F2F2F2;
-    font-size: 40px;
+    font-size: 20px;
     border-color: #6E038C;
-    cursor: pointer;
 
 }
-.registerbutton:hover{
-    opacity: 25px;
+@media screen and (min-width:280px) and (max-width:375px){
+    .mentoruplogo{
+        width: 50px;
+        height: 50px;
+    }
+    .input{
+        border: solid 1px;
+        font-size: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 5px;
+        padding: 10px;
+        width: 30%;
+     }
+     #form{
+        width: 90%;
+        padding: 20px;
+        color: #6E038C;
+     }
+     .label{
+        font-size: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     } 
+     .signupcontent{
+        align-items: center;
+        padding: 50px;
+        border: solid 2px color(#D2BAD9 red green blue);
+        background-color: #D2BAD9;
+        border-radius: 80px;
+        height: 700px;
+        width: 50%;
+     }
+     .registerbutton{
+        padding: 20px;
+        width: 80%;
+        color: #F2F2F2;
+        font-size: 10px;
+    
+    }
+}
+@media screen and (min-width:376px) and (max-width:600px){
+   
+    .mentoruplogo{
+        width: 70px;
+        height: 60px;
+    }
+    .input{
+        border: solid 1px;
+        font-size: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 5px;
+        padding: 10px;
+        width: 30%;
+     }
+     #form{
+        width: 90%;
+        padding: 20px;
+        color: #6E038C;
+     }
+     .label{
+        font-size: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     } 
+     .signupcontent{
+        align-items: center;
+        padding: 50px;
+        border: solid 2px color(#D2BAD9 red green blue);
+        background-color: #D2BAD9;
+        border-radius: 80px;
+        height: 700px;
+        width: 50%;
+     }
+     .registerbutton{
+        padding: 20px;
+        width: 70%;
+        color: #F2F2F2;
+        font-size: 10px;
+    
+    }
+}
+@media screen and (min-width:600px) and (max-width:1300px){
+   
+    .mentoruplogo{
+        width: 100px;
+        height: 100px;
+    }
+    .input{
+        border: solid 1px;
+        font-size: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 5px;
+        padding: 10px;
+        width: 30%;
+     }
+     #form{
+        width: 90%;
+        padding: 20px;
+        color: #6E038C;
+     }
+     .label{
+        font-size: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     } 
+     .signupcontent{
+        align-items: center;
+        padding: 50px;
+        border: solid 2px color(#D2BAD9 red green blue);
+        background-color: #D2BAD9;
+        border-radius: 80px;
+        height: 700px;
+        width: 50%;
+     }
+     .registerbutton{
+        padding: 20px;
+        width: 40%;
+        color: #F2F2F2;
+        font-size: 20px;
+    
+    }
 }
