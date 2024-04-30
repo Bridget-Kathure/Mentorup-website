@@ -1,14 +1,35 @@
 
+.homepagedetails{
+    border: solid 2px color(#D2BAD9 red green blue);
+   background-color: #D2BAD9;
+   border-radius: 80px;
+   height: 900px;
+   width: 100%;  
+   align-items: center; 
+}
 .navbar{
-    justify-content: space-around;
+    font-weight: 800;
+  justify-content: space-around;
     display: flex;
+    font-size: 20px;
+    align-items: center;
+
+}
+.navbar a{
+    text-decoration: none;
 }
 .mentoruplogo{
     width: 150px;
     height: 100px;
+    margin-left: 40%;
+}
+.bookimage{
+    width: 300px;
+    height: 300px;
+    margin-left: 35%;
 }
 .heading{
-    text-align: center;
+    margin-left: 20%;
     color: #6E038C;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -19,11 +40,23 @@
 .navbar a{
     text-decoration: none;
 }
-
+.subtitle{
+    margin-left: 25%;
+}
 .bornacrimesummary{
+    margin-left: 20%;
+    font-size: 20px;
+    color: #6E038C;
+    font-weight: 400;
 }
 .bornacrimecontent{
-    margin-left: 10%;
+    border: solid 2px color(#D2BAD9 red green blue);
+    background-color: #D2BAD9;
+    border-radius: 80px;
+    height: 1100px;
+    width: 100%;  
+    align-items: center; 
+    /* margin-left: 10%;
     border: solid 2px color(#D2BAD9 red green blue);
    background-color: #D2BAD9;
    border-radius: 80px;
@@ -32,5 +65,5 @@
    width: 70%;
    color: #6E038C;  
    background-color: #D2BAD9;
-   align-items: center; 
+   align-items: center;  */
 }

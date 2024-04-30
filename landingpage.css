@@ -65,6 +65,7 @@
     }
     .landingpagecontent{
         display: flex;
+        flex-direction: column;
         gap: 10%;
     }
     .landingparagraph{
