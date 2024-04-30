@@ -22,7 +22,7 @@
 .viewbutton{
     position: absolute;
     margin-left: -8%;
-    padding: 15px;
+    padding: 20px;
     width: 8%;
     color: white;
     /* margin-top: -30%; */
@@ -38,6 +38,9 @@
     width:60px;
 }
 .input{
+    color: #6E038C;
+    font-weight: 500;
+    font-size: 20px;
     position: relative;
     border: solid 1px;
     padding: 20px;
